@@ -26,7 +26,7 @@ module.exports = function (grunt) {
 
     'webpack-dev-server': {
       options: {
-        hot: true,
+        hot: true,//实现实时更新效果
         port: 8000,
         webpack: webpackDevConfig,
         publicPath: '/assets/',
